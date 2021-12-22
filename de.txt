@@ -1,0 +1,10 @@
+Design objects and methods to manage buildings as follow
+The building has the following attributes: building name, total apartment number, address, and contact information.
+
+The apartment will inherit from the building and have its own properties such as: apartment code, floor number,
+ apartment owner name (using class people, apartment owner is 1 person), apartment type (using enum DeparmentType), electricity fee, water fee,
+
+The building manager that inherits from the people object. There are separate attributes as follows: Position (using enum Position), Contact phone number.
+Define an enum as an apartment type with the values: Apartment type A, apartment type B, apartment type C.
+
+Define an enum position with types: Security, technical staff, director 
